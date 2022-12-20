@@ -6,10 +6,10 @@ const { Tag, Product, ProductTag } = require('../../models');
 router.get('/', (req, res) => {
   // find all tags
   // be sure to include its associated Product data
-  Tag.findAll({include: [Category,{model: Tag, through: ProductTag}]})
+  Tag.findAll({include: [{model: Product, through: ProductTag}]})
     .then((allTags) => res.status(200).json(allTags))  
     .catch ((err) => {
-      console.log(err);
+      // console.log(err);
       res.status(500).json(err)
     });
 });
@@ -20,7 +20,7 @@ router.get('/:id', (req, res) => {
   Tag.findOne({where:{id:req.params.id,}, include:[{model:Product, through:ProductTag},],})
     .then((tag) => res.status(200).json(tag))
     .catch ((err) => {
-      console.log(err);
+      // console.log(err);
       res.status(404).json(err)
     });
 });
@@ -37,7 +37,7 @@ router.post('/', (req, res) => {
 
 router.put('/:id', (req, res) => {
   // update a tag's name by its `id` value
-  Tag.create(req.body,{where:{id:req.params.id,}},)
+  Tag.update(req.body,{where:{id:req.params.id,}},)
     .then((updatedTag) => res.status(200).json(updatedTag))
     .catch ((err) => {
       console.log(err);
