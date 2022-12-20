@@ -20,8 +20,12 @@ DROP DATABASE IF EXISTS ecommerce_db;
 
 CREATE DATABASE ecommerce_db;
 ```
+2. Update the env file(USER name and password) and change the file name
+```
+.env.EXAMPLE => .env
+```
 
-2. Open in Integrated Terminal and run
+3. Open in Integrated Terminal and run
 ```
 npm run seed
 ```
@@ -29,8 +33,9 @@ npm run seed
 ```
 node index.js
 ```
-3. Open in Insomnia and run localhost.
-4. User is able to run the application
+4. Open in Insomnia and run localhost.
+
+5. User is able to run the application
 
 ### Video for each function
 
