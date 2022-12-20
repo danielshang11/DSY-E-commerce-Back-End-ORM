@@ -34,9 +34,14 @@ npm run seed
 node index.js
 ```
 4. Open in Insomnia and run localhost.
+```
+http://localhost:3001/api/(inside here could put products/categories/tags)/id(if needed)
+```
 
 5. User is able to run the application
-
+```
+GET/POST/PUT/DEL
+```
 ### Video for each function
 
 #### Search function(GET, GET by id)
