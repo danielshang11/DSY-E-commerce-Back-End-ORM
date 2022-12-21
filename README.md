@@ -8,37 +8,21 @@ This application will help users to search categories, products, and tags, also 
 ## Usage
 ### the functionality of the application
 
-Clone the repo to local:
-```
-clone the repo to local machine
-```
-1. Open in MySQL Workbench and run
-```
-DROP DATABASE IF EXISTS ecommerce_db;
 
-CREATE DATABASE ecommerce_db;
-```
-2. Update the env file(USER name and password) and change the file name
-```
-.env.EXAMPLE => .env
-```
-3. Open in Integrated Terminal and run
-```
-npm run seed
-```
-```
-node index.js
-```
-4. Open in Insomnia and run localhost.
-```
-http://localhost:3001/api/(inside here could put products/categories/tags)/id(if needed)
-```
 ### Video for each function
 
 #### Search function(GET, GET by id)
 
 ![alt text](./assets/video/Get_for_all_tables.gif)
+#### Functions(POST, PUT, DEL) for Categories
 
+![alt text](./assets/video/Categories.gif)
+
+#### Functions(POST, PUT, DEL) for Products
+![alt text](./assets/video/Products.gif)
+
+#### Functions(POST, PUT, DEL) for Tags
+![alt text](./assets/video/Tags.gif)
 
 
 ## Credits
