@@ -46,7 +46,7 @@ GET/POST/PUT/DEL
 
 #### Search function(GET, GET by id)
 
-![alt text]([./assets/video/Get_for_all_tables.gif](https://github.com/danielshang11/DSY-E-commerce-Back-End-ORM/blob/main/assets/Video/Get_for_all_tables.gif?raw=true))
+![alt text](./assets/video/Get_for_all_tables.gif)
 
 ### Functions(POST, PUT, DEL) for Categories
 
