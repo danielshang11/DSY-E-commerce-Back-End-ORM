@@ -48,15 +48,7 @@ GET/POST/PUT/DEL
 
 ![alt text](./assets/video/Get_for_all_tables.gif)
 
-### Functions(POST, PUT, DEL) for Categories
 
-![alt text](./assets/video/Categories.gif)
-
-### Functions(POST, PUT, DEL) for Products
-![alt text](./assets/video/Products.gif)
-
-### Functions(POST, PUT, DEL) for Tags
-![alt text](./assets/video/Tags.gif)
 
 ## Credits
 
