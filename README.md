@@ -6,14 +6,12 @@ The Main purpose to build this application is to make a back-end for the E-comme
 This application will help users to search categories, products, and tags, also be able to search(GET), add(POST), update(PUT), and delete(DEL) each specific category, product, and tag.
 
 ## Usage
-
 ### the functionality of the application
 
 Clone the repo to local:
 ```
 clone the repo to local machine
 ```
-
 1. Open in MySQL Workbench and run
 ```
 DROP DATABASE IF EXISTS ecommerce_db;
@@ -24,23 +22,16 @@ CREATE DATABASE ecommerce_db;
 ```
 .env.EXAMPLE => .env
 ```
-
 3. Open in Integrated Terminal and run
 ```
 npm run seed
 ```
-
 ```
 node index.js
 ```
 4. Open in Insomnia and run localhost.
 ```
 http://localhost:3001/api/(inside here could put products/categories/tags)/id(if needed)
-```
-
-5. User is able to run the application
-```
-GET/POST/PUT/DEL
 ```
 ### Video for each function
 
