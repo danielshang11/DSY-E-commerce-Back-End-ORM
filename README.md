@@ -37,16 +37,16 @@ http://localhost:3001/api/(inside here could put products/categories/tags)/id(if
 ```
 #### Search function(GET, GET by id)
 
-![Get for all table](./assets/video/Get_for_all_tables.gif)
+![Get for all table](./video/Get_for_all_tables.gif)
 #### Functions(POST, PUT, DEL) for Categories
 
-![Functions(POST, PUT, DEL) for Categories](./assets/video/Categories.gif)
+![Functions(POST, PUT, DEL) for Categories](./video/Categories.gif)
 
 #### Functions(POST, PUT, DEL) for Products
-![Functions(POST, PUT, DEL) for Products](./assets/video/Products.gif)
+![Functions(POST, PUT, DEL) for Products](./video/Products.gif)
 
 #### Functions(POST, PUT, DEL) for Tags
-![Functions(POST, PUT, DEL) for Tags](./assets/video/Tags.gif)
+![Functions(POST, PUT, DEL) for Tags](./video/Tags.gif)
 
 
 ## Credits
